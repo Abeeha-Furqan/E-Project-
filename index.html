@@ -34,6 +34,8 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
 
 <link rel="stylesheet" href="style.css">
 
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
 </head>
 <body>
 
@@ -43,7 +45,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
   
  
 
-    <nav class="navbar navbar-light text-dark" style="background-color: #e3f2fd;">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     
 
 
@@ -58,23 +60,33 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
+          
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              Menu
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="football">Football</a></li>
+              <li><a class="dropdown-item" href="#">Judo</a></li>
+              <li><a class="dropdown-item" href="#">Tennis</a></li>
+              <li><a class="dropdown-item" href="#">Motorcycle racing</a></li>
+              <li><a class="dropdown-item" href="#">Volleyball</a></li>
+              <li><a class="dropdown-item" href="#">Golf</a></li>
+              <li><a class="dropdown-item" href="#">Chess</a></li>
+              <li><a class="dropdown-item" href="#">Billards</a></li>
+              <li><a class="dropdown-item" href="#">Badminton</a></li>
+              <li><a class="dropdown-item" href="#">Swimming</a></li>
+              <li><a class="dropdown-item" href="#">Athletics</a></li>
+              <!-- <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#"></a></li> -->
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li>
+            <a class="nav-link" href="#">Contact Us</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+           </li>
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
